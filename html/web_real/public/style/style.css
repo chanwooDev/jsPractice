@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap');
+
+		
+		body,html{
+			margin: 0;
+			padding: 0;
+			box-sizing:border-box;
+				
+		}
+
+		.sidebar{
+			width: 10.5rem;
+			background: black;
+			margin-left: 5rem;
+
+		}
+		
+		.content{
+			width: 149rem;
+			display: flex;
+				margin:0  30rem;
+		}
+		
+		.main{
+			width: 70rem;
+		}
+			
+		
+		header{
+			background-image: url( "../img/logo_img.jpeg" );
+			width: 149rem;
+			display: flex;
+
+		}
+		
+	    footer{
+			background: #424242;
+			width: 149rem;
+			margin-top: 2rem;
+			display: flex;
+			position: relative;
+		}
+		
+		.footernav{
+			margin-left: 20rem;
+			margin-top: 2rem;
+			display: flex;
+			flex-direction: column;
+}
+
+		
+		
+		
+		.logo{
+			border: solid white; 
+			border-style: double;
+		}
+		
+		.fa-accusoft{
+			color: #ff8f00;
+			font-size: 1.7rem;
+		}
+		
+		.logo_text{
+			color: black;
+			font-family: 'Black Han Sans', sans-serif;
+			font-size: 1.7rem;
+		}
+	
+		.lo{
+			display: flex;
+			flex-direction: column;
+	
+}		.logo_img{
+			width: 62.5rem;
+			height: 9.375rem;
+		}
+		
+		.logo_img_2{
+			width: 9rem;
+			height: 9rem;
+			margin-left: 14rem;
+		}
+		
+		.logo_3{;
+			width: 10rem;
+			height: 8rem;
+			
+		}
+		
+		.logo_img_3{
+			width: 10rem;
+			height: 8rem;
+			margin-left: 14rem;
+			margin-top: 4rem;
+		}
+		
+	
+		
+		
+		.compete{
+			font-size: 6rem;
+			color: white;
+			text-decoration: none;
+			font-family: 'Black Han Sans', sans-serif;
+			text-shadow: 0.05rem 0.05rem black;
+			text-align: center;
+
+		}
+		
+		.compete_border{
+			width: 60rem;
+			height: 7rem;
+			margin-left: 20rem;
+		}
+		
+		.compete_hr_1{
+			width: 47rem;
+			border: solid 0.2rem #ccb9bc;
+			display:inline-block;
+		}
+		
+		.compete_border:hover .compete{
+			color: #ede7f6;
+			
+		}
+		
+		.line_1{
+			border: solid 0.05rem #c43e00;
+	
+			top: 9.7rem;
+			left: 0rem;
+			width: 70rem;
+			margin: 0;
+			
+		}
+		
+		.menu_background{
+			width: 66rem;
+			height: 36rem;
+			background: #f5f5f5;
+			border-radius: 1rem;
+			border: dotted 0.1rem black;
+			display: flex;
+			flex-direction: column;
+			align-content: space-around;
+			padding: 1rem 2rem;
+			list-style: none;
+			flex-wrap: wrap;
+		}
+		
+		.menu_list{
+			text-decoration: none;
+			font-size: 1.3rem;
+			color: #212121;
+			font-family: 'Black Han Sans', sans-serif;
+		}
+		
+		.menu_li{
+			margin: 1rem 0;
+		}
+		
+		.fa-user-md{
+			color: #ff8f00;
+			font-size: 1.3rem;
+		}
+		
+		.fa-bars{
+			left: 1rem;
+			top: 1rem;
+		}
+		
+		td{
+			border: solid 0.05rem black;
+			text-align: center;
+			width: 9.3rem;
+			font-size: 1.2rem;
+		}
+		
+		.table_1{
+			border-collapse: collapse;
+			display: none;
+
+		}
+		
+		.tr_1 td{
+			border-top: solid 0.2rem #8d8d8d;
+			height: 2rem;
+			background: #bdbdbd;
+		}
+		
+		.td_cancel{
+			color: #d50000;
+		}
+		
+		.first_1{
+			width: 4rem;
+		}
+		
+		.table_2{
+			border-collapse: collapse;
+			display: none;
+		}
+		
+		.tr_2 td{
+			border-top: solid 0.2rem #8d8d8d;
+			height: 2rem;
+			background: #bdbdbd;
+		}
+		
+		.first_2{
+			width: 4rem;
+		}
+		
+		.table_3{
+			border-collapse: collapse;
+			display:none;
+		}
+		
+		.tr_3 td{
+			border-top: solid 0.2rem #8d8d8d;
+			height: 2rem;
+			background: #bdbdbd;
+		}
+		
+		.first_3{
+			width: 4rem;
+		}
+		
+		.table_4{
+			border-collapse: collapse;
+			display:table;
+		}
+		
+		.tr_4 td{
+			border-top: solid 0.2rem #8d8d8d;
+			height: 2rem;
+			background: #bdbdbd;
+		}
+		
+		
+		.first_4{
+			width: 4rem;
+		}
+		
+		.main_table{
+			border-collapse: collapse;
+		}
+		
+		.main_tr td{
+			width: 13.8rem;
+			font-size: 2rem;
+		}
+		
+		
+		
+		.hrf_airforce{
+			text-decoration: none;
+			color: black;
+		}
+		
+		.hrf_army{
+			text-decoration: none;
+			color: black;
+		}
+		
+		.hrf_navy{
+			text-decoration: none;
+			color: black;
+		}
+		
+		.hrf_military{
+			text-decoration: none;
+			color: black;
+		}
+
+		
+		.footer_img{
+			width: 8rem;
+			height: 7rem;
+			margin-left: 15rem;
+		}
+		
+		
+		.footer_ul li{
+			list-style: none;
+			margin: 0.3rem;
+			text-align: center;
+		}
+		
+		.footer_ul a{
+			color: #616161;
+			font-family: 'Black Han Sans', sans-serif;
+			font-size: 0.8rem;
+			text-decoration: none;
+			
+		}
+		
+		.footer_site{
+			text-decoration: none;
+			color: #f5f5f5;
+			font-size: 0.8rem;
+			font-family: 'Black Han Sans', sans-serif;
+			line-height:1.8rem;
+			line-height: 1rem;
+			padding: 0 0 0 1rem;
+		}
+		
+		.footer_ul{
+			flex-direction: column;
+			border: solid 0.01rem black;
+			display: none;
+			padding: 0;
+			background: #cfcfcf;
+			position:absolute;
+			left: 82.2rem;
+			bottom: 5rem;
+			width: 9.86rem;
+			margin: 0;
+		}
+		
+		.footer_nav{
+			display: block;
+			justify-content: center;
+			align-content: center;
+			background:  #373737;
+			width: 9.5rem;
+			padding: 0.2rem 0.03rem;
+			margin: 0;
+			border: solid 0.1rem #f5f5f5;
+		
+			left: 76.05rem;
+			bottom: 2rem;
+			
+		}
+		
+		.fa-arrow-up{
+			font-size: 0.7rem;
+			text-align: center;
+			line-height: 2rem;
+			color: #f5f5f5;
+			margin-left: 1rem;
+		}
+		
+		
+		.footer_ul_nav{
+		margin-bottom:
+		}
+		
+		.footer_text{
+			margin-left: 9rem;
+			margin-top: 2rem;
+			color: white;
+			font-family: 'Gothic A1', sans-serif;
+		}
+		
